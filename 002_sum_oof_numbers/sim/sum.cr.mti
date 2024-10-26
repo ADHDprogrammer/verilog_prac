@@ -1,0 +1,8 @@
+/home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v {1 {vlog -work work -stats=none /home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sum_of_numbers
+
+Top level modules:
+	sum_of_numbers
+
+} {} {}}

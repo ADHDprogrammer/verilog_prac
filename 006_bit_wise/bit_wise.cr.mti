@@ -1,0 +1,8 @@
+/home/anmol/udemy_verilog/006_bit_wise/bitwise.v {1 {vlog -work work -stats=none /home/anmol/udemy_verilog/006_bit_wise/bitwise.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitwise_operator
+
+Top level modules:
+	bitwise_operator
+
+} {} {}}

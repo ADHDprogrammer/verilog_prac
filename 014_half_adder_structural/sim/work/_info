@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/anmol/udemy_verilog/013_waveform.v/sim
+vhalf_adder_structural
+Z0 !s110 1729137761
+!i10b 1
+!s100 <2lGoQPeD>5W<aTdC5QGC1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ^3A;;8He9cK2?zEkk;L<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/anmol/udemy_verilog/014_half_adder/sim
+w1729137757
+8/home/anmol/udemy_verilog/014_half_adder/half_adder_structural.v
+F/home/anmol/udemy_verilog/014_half_adder/half_adder_structural.v
+!i122 2
+L0 1 10
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1729137761.000000
+!s107 /home/anmol/udemy_verilog/014_half_adder/half_adder_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anmol/udemy_verilog/014_half_adder/half_adder_structural.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmoduleName
+R0
+!i10b 1
+!s100 ;?0:_<kQQb`e6deAmjWDU3
+R1
+IY<A49WEQ><45[MVeT6XUC1
+R2
+R3
+w1729137699
+8/home/anmol/udemy_verilog/014_half_adder/testbench.v
+F/home/anmol/udemy_verilog/014_half_adder/testbench.v
+!i122 3
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/anmol/udemy_verilog/014_half_adder/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anmol/udemy_verilog/014_half_adder/testbench.v|
+!i113 1
+R6
+R7
+nmodule@name

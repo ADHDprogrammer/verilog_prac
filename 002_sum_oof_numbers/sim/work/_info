@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/anmol/intelFPGA/20.1/modelsim_ase/bin
+vsum_of_numbers
+!s110 1728973407
+!i10b 1
+!s100 dOjeb3o9PaBm_dOg?HHnW2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IQkn>4a2BnBGDh2Bf;lPS]2
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/anmol/udemy_verilog/002_sum_oof_numbers/sim
+w1728213407
+8/home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v
+F/home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v
+!i122 3
+L0 1 22
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1728973407.000000
+!s107 /home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anmol/udemy_verilog/002_sum_oof_numbers/sum_of_integer.v|
+!i113 1
+o-work work
+tCvgOpt 0

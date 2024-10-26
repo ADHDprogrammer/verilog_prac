@@ -1,0 +1,20 @@
+# Loading project g
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project l
+# Load canceled
+# Compile of clkgen.v was successful.
+vsim work.clkgen
+# vsim work.clkgen 
+# Start time: 00:35:40 on Oct 24,2024
+# Loading work.clkgen
+run -all
+# ** Note: $stop    : /home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v(34)
+#    Time: 40 us  Iteration: 0  Instance: /clkgen
+# Break in Module clkgen at /home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v line 34
+add wave -position end sim:/clkgen/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : /home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v(34)
+#    Time: 40 us  Iteration: 0  Instance: /clkgen
+# Break in Module clkgen at /home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v line 34

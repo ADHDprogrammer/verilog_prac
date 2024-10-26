@@ -1,0 +1,20 @@
+# Loading project project
+# Compile of hello_world.v was successful.
+vsim work.hello_world
+# vsim work.hello_world 
+# Start time: 02:55:22 on Oct 06,2024
+# Loading work.hello_world
+run -all
+# 
+# 	 Hello world! 
+# 
+# Compile of hello_world.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.hello_world
+run -all
+# 
+# 	 Hello world! anmol verilog 
+# 
+# End time: 04:02:13 on Oct 06,2024, Elapsed time: 1:06:51
+# Errors: 0, Warnings: 1

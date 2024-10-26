@@ -1,0 +1,39 @@
+# Loading project project
+# Compile of easy_vectors.v was successful.
+vsim work.easy_vector
+# vsim work.easy_vector 
+# Start time: 20:41:31 on Oct 14,2024
+# Loading work.easy_vector
+run -all
+# PRO2 a = 00000000, b=0000000, c=00, d=00000000
+# PRO2 a = 00000001, b=0000000, c=00, d=00000000
+# PRO2 a = 11110101, b=0000000, c=01, d=00000000
+# PRO2 a = 11111000, b=0000000, c=10, d=00000000
+# PRO2 a = 00001000, b=0000000, c=10, d=00000000
+# PRO2 a = 00000000, b=0000000, c=00, d=00000000
+# PRO2 a = 00000000, b=1111111, c=00, d=00000000
+# PRO2 a = 00000000, b=1111111, c=00, d=11110000
+# PRO2 a = 00001110, b=1111111, c=11, d=11110000
+# PRO2 a = 00001110, b=1111111, c=11, d=11101111
+# PRO2 a = 00001110, b=1111111, c=11, d=11110000
+quit -sim
+# End time: 23:22:15 on Oct 14,2024, Elapsed time: 2:40:44
+# Errors: 0, Warnings: 2
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sum
+# Compile of sum_of_integer.v was successful.
+vsim work.sum_of_numbers
+# vsim work.sum_of_numbers 
+# Start time: 23:23:35 on Oct 14,2024
+# Loading work.sum_of_numbers
+
+end 
+# wrong # args: should be "endpoint_image option ?arg ...?"
+end work
+# bad option "work": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+end 
+# wrong # args: should be "endpoint_image option ?arg ...?"
+
+
+# End time: 23:37:23 on Oct 14,2024, Elapsed time: 0:13:48
+# Errors: 0, Warnings: 5

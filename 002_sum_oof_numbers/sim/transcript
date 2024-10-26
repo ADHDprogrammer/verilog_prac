@@ -1,0 +1,350 @@
+# Loading project sum
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project bit_wise
+# Compile of bitwise.v was successful.
+# Compile of bitwise.v was successful.
+vsim work.bitwise_operator
+# vsim work.bitwise_operator 
+# Start time: 00:04:06 on Oct 15,2024
+# Loading work.bitwise_operator
+run -all
+# MON x=000000, y=000000, result=000000 
+# 
+# MON x=000101, y=110001, result=000001 
+# 
+# MON x=000101, y=110001, result=111110 
+# 
+# MON x=101001, y=001011, result=101011 
+# 
+# MON x=101001, y=001011, result=010100 
+# 
+# MON x=101001, y=001011, result=100010 
+# 
+# MON x=101001, y=001011, result=011101 
+# 
+add wave -position end  sim:/bitwise_operator/x
+add wave -position end  sim:/bitwise_operator/y
+add wave -position end  sim:/bitwise_operator/result
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# MON x=000000, y=000000, result=000000 
+# 
+# MON x=000101, y=110001, result=000001 
+# 
+# MON x=000101, y=110001, result=111110 
+# 
+# MON x=101001, y=001011, result=101011 
+# 
+# MON x=101001, y=001011, result=010100 
+# 
+# MON x=101001, y=001011, result=100010 
+# 
+# MON x=101001, y=001011, result=011101 
+# 
+
+
+stop
+end bitwise.v
+# bad option "bitwise.v": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+end bitwise.v
+# bad option "bitwise.v": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+
+quit -sim
+# End time: 00:09:43 on Oct 15,2024, Elapsed time: 0:05:37
+# Errors: 0, Warnings: 1
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project reduction
+# Compile of reduction.v failed with 1 errors.
+# Compile of reduction.v failed with 1 errors.
+# Compile of reduction.v failed with 1 errors.
+# Compile of reduction.v was successful.
+vsim work.reduction_operators
+# vsim work.reduction_operators 
+# Start time: 00:18:36 on Oct 15,2024
+# Loading work.reduction_operators
+add wave -position end  sim:/reduction_operators/my_val1
+add wave -position end  sim:/reduction_operators/my_val2
+add wave -position end  sim:/reduction_operators/result
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# MON my_val1=11111 , my_val2=101011110, result=x
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+# Compile of reduction.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.reduction_operators
+run -all
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+# MON my_val1=11111 , my_val2=101011110, result=1
+# MON my_val1=11111 , my_val2=101011110, result=0
+q
+quit -sim
+# End time: 00:22:45 on Oct 15,2024, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 2
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sim
+# Compile of logical_operators.v was successful.
+vsim work.logical_operators
+# vsim work.logical_operators 
+# Start time: 00:27:02 on Oct 15,2024
+# Loading work.logical_operators
+add wave -position end  sim:/logical_operators/my_val1
+add wave -position end  sim:/logical_operators/my_val2
+add wave -position end  sim:/logical_operators/result
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# MON my_val1=111 , my_val2=0000, result=0
+# MON my_val1=111 , my_val2=0000, result=1
+# MON my_val1=111 , my_val2=0000, result=0
+# MON my_val1=111 , my_val2=0000, result=1
+# MON my_val1=z0x , my_val2=0000, result=x
+# MON my_val1=z0x , my_val2=0000, result=0
+quit -sim
+# End time: 00:57:26 on Oct 15,2024, Elapsed time: 0:30:24
+# Errors: 0, Warnings: 1
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project project
+# Compile of locgical_usage.v failed with 1 errors.
+# Compile of locgical_usage.v was successful.
+vsim work.logical_operators_usage
+# vsim work.logical_operators_usage 
+# Start time: 00:58:39 on Oct 15,2024
+# Loading work.logical_operators_usage
+add wave -position end  sim:/logical_operators_usage/my_val1
+add wave -position end  sim:/logical_operators_usage/my_val2
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# i expected my_val1= 0 but myval1=7
+# graet my_val2=0000
+# i expected my_val1!=0 and my_val2= 0 but myval1=7 and my_val2= 0
+# while loop myval2= 0
+# while loop myval2= 1
+# while loop myval2= 2
+# Compile of locgical_usage.v was successful.
+vsim work.logical_operators_usage
+# End time: 01:00:01 on Oct 15,2024, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim work.logical_operators_usage 
+# Start time: 01:00:01 on Oct 15,2024
+# Loading work.logical_operators_usage
+restart
+add wave -position end  sim:/logical_operators_usage/my_val1
+add wave -position end  sim:/logical_operators_usage/my_val2
+restart
+run -all
+# i expected my_val1= 0 but myval1=111
+# graet my_val2=0000
+# i expected my_val1!=0 and my_val2= 0 but myval1=111 and my_val2=0000
+# while loop myval2= 0
+# while loop myval2= 1
+# while loop myval2= 2
+# Compile of locgical_usage.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.logical_operators_usage
+run -all
+# i expected my_val1= 0 but myval1=111
+# graet my_val2=0000
+# graet my_val1=111 myval2=0000
+# while loop myval2= 0
+# while loop myval2= 1
+# while loop myval2= 2
+# Compile of locgical_usage.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.logical_operators_usage
+run -all
+# i expected my_val1= 0 but myval1=001
+# i expected my_val1= 0 but myval1=0001
+# i expected my_val1!=0 and my_val2=0 but myval1=001 and my_val2=0001
+# while loop myval2= 1
+# while loop myval2= 2
+
+quit -sim
+# End time: 03:15:43 on Oct 15,2024, Elapsed time: 2:15:42
+# Errors: 0, Warnings: 1
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sim
+# Compile of shift_operators.v was successful.
+vsim work.lshift_operators
+# vsim work.lshift_operators 
+# Start time: 03:16:23 on Oct 15,2024
+# Loading work.lshift_operators
+add wave -position end  sim:/lshift_operators/a
+add wave -position end  sim:/lshift_operators/b
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906
+# MOn a=010110101101 b = 000000000000, a=1453, b= 0
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906
+# MOn a=010110101101 b = 010110100000, a=1453, b= 1440
+# MOn a=010110101101 b = 000101101000, a=1453, b= 360
+# MOn a=010110101101 b = 000000000010, a=1453, b= 2
+# MOn a=010110101101 b = 000000000100, a=1453, b= 4
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45
+# A time value could not be extracted from the current line
+# Compile of shift_operators.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.lshift_operators
+run -all
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906 d = 00000000
+# MOn a=010110101101 b = 000000000000, a=1453, b= 0 d = 00000000
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906 d = 00000000
+# MOn a=010110101101 b = 010110100000, a=1453, b= 1440 d = 00000000
+# MOn a=010110101101 b = 000101101000, a=1453, b= 360 d = 00000000
+# MOn a=010110101101 b = 000000000010, a=1453, b= 2 d = 00000000
+# MOn a=010110101101 b = 000000000100, a=1453, b= 4 d = 00000000
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45 d = 00000000
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45 d = 00000001
+# Compile of shift_operators.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.lshift_operators
+run -all
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906 d = 00000000
+# MOn a=010110101101 b = 000000000000, a=1453, b= 0 d = 00000000
+# MOn a=010110101101 b = 101101011010, a=1453, b= 2906 d = 00000000
+# MOn a=010110101101 b = 010110100000, a=1453, b= 1440 d = 00000000
+# MOn a=010110101101 b = 000101101000, a=1453, b= 360 d = 00000000
+# MOn a=010110101101 b = 000000000010, a=1453, b= 2 d = 00000000
+# MOn a=010110101101 b = 000000000100, a=1453, b= 4 d = 00000000
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45 d = 00000000
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45 d = 11101010
+# MOn a=010110101101 b = 000000101101, a=1453, b= 45 d = 00000001
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 00:47:45 on Oct 16,2024, Elapsed time: 21:31:22
+# Errors: 0, Warnings: 1
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sim
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.my_first_testbench
+# vsim work.my_first_testbench 
+# Start time: 00:49:47 on Oct 16,2024
+# Loading work.my_first_testbench
+# ** Error: (vsim-3033) Instantiation of 'sdder8bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /my_first_testbench File: /home/anmol/udemy_verilog/012_adder8bit/my_first_testbench.v Line: 8
+#         Searched libraries:
+#             /home/anmol/udemy_verilog/012_adder8bit/sim/work
+# Error loading design
+# End time: 00:49:48 on Oct 16,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+vsim work.my_first_testbench
+# vsim work.my_first_testbench 
+# Start time: 00:49:59 on Oct 16,2024
+# Loading work.my_first_testbench
+# ** Error: (vsim-3033) Instantiation of 'sdder8bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /my_first_testbench File: /home/anmol/udemy_verilog/012_adder8bit/my_first_testbench.v Line: 8
+#         Searched libraries:
+#             /home/anmol/udemy_verilog/012_adder8bit/sim/work
+# Error loading design
+# End time: 00:50:00 on Oct 16,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.my_first_testbench
+# vsim work.my_first_testbench 
+# Start time: 00:56:47 on Oct 16,2024
+# Loading work.my_first_testbench
+# ** Error: (vsim-3033) Instantiation of 'sdder8bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /my_first_testbench File: /home/anmol/udemy_verilog/012_adder8bit/my_first_testbench.v Line: 20
+#         Searched libraries:
+#             /home/anmol/udemy_verilog/012_adder8bit/sim/work
+# Error loading design
+# End time: 00:56:47 on Oct 16,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.my_first_testbench
+# vsim work.my_first_testbench 
+# Start time: 00:57:36 on Oct 16,2024
+# Loading work.my_first_testbench
+# Loading work.adder8bit
+add wave -position end sim:/my_first_testbench/ADDER/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# MON a = 00000000, b = 00000000, sum = 000000000
+# MON a = 00000001, b = 00000000, sum = 000000001
+# MON a = 00000001, b = 00001010, sum = 000001011
+# MON a = 00000001, b = 01100011, sum = 001100100
+# MON a = 01100101, b = 01000010, sum = 010100111
+# MON a = 11111111, b = 11111111, sum = 111111110
+# A time value could not be extracted from the current line
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.my_first_testbench
+# Loading work.adder8bit
+run -all
+# MON a =   0, b =   0, sum =   0
+# MON a =   1, b =   0, sum =   1
+# MON a =   1, b =  10, sum =  11
+# MON a =   1, b =  99, sum = 100
+# MON a = 101, b =  66, sum = 167
+# MON a = 255, b = 255, sum = 510
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.my_first_testbench
+# Loading work.adder8bit
+run -all
+# MON a =   0, b =   0, sum =   0
+# MON a =   1, b =   0, sum =   1
+# MON a =   1, b =  10, sum =  11
+# MON a =   1, b =  99, sum = 100
+# MON a = 101, b =  66, sum = 167
+# MON a = 255, b = 255, sum = 510
+quit -sim
+# End time: 01:38:56 on Oct 16,2024, Elapsed time: 0:41:20
+# Errors: 0, Warnings: 1
+# reading /home/anmol/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project sim
+# Compile of waveform.v failed with 1 errors.
+# Compile of waveform.v was successful.
+# Load canceled
+# Compile of waveform.v was successful.
+vsim work.moduleName
+# vsim work.moduleName 
+# Start time: 01:41:12 on Oct 16,2024
+# Loading work.moduleName
+add wave -position end sim:/moduleName/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# End time: 01:42:47 on Oct 16,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1

@@ -1,0 +1,8 @@
+/home/anmol/udemy_verilog/009_logical_operations_usage/locgical_usage.v {1 {vlog -work work -stats=none /home/anmol/udemy_verilog/009_logical_operations_usage/locgical_usage.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logical_operators_usage
+
+Top level modules:
+	logical_operators_usage
+
+} {} {}}
