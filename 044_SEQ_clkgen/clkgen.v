@@ -31,7 +31,7 @@ module clkgen();
 	
     // This will stop the simulator after 40us
     initial begin       
-       #40 $stop;
+       #40; $stop;
        $display("End of CLKGEN");
     end
   

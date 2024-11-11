@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/anmol/udemy_verilog/024_built_in_gates/sim
 vclkgen
-!s110 1729755335
+!s110 1730199120
 !i10b 1
 !s100 8Qmh1BD>4XVXc>Hj@CHIE3
 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ d/home/anmol/udemy_verilog/050_SEQ_clkgen/sim
 w1729754968
 8/home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v
 F/home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v
-!i122 0
+!i122 1
 L0 2 37
 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1729755334.000000
+!s108 1730199120.000000
 !s107 /home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/anmol/udemy_verilog/050_SEQ_clkgen/clkgen.v|
 !i113 1
